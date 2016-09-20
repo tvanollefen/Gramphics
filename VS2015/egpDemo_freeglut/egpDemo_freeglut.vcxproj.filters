@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\tex">
+      <UniqueIdentifier>{0029e626-e06a-4788-af3c-119214e40cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\tex\bg">
+      <UniqueIdentifier>{72ade22d-bd31-44b6-bc3e-48ec0b11ae6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\tex\box">
+      <UniqueIdentifier>{7efc77dc-e3f4-4b49-b26b-9edcda5ca80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\tex\earth">
+      <UniqueIdentifier>{66a4de37-5b00-4eca-a9e3-82d4eafae7d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\tex\stone">
+      <UniqueIdentifier>{126c3921-8718-4e9a-a90b-378baf0c2a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\tex\earth\2k">
+      <UniqueIdentifier>{f2342b9b-a668-4c06-a746-f3884f0f84ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\egpDemo_freeglut\demo_utils_3B.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\egpDemo_freeglut\demo_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\egpDemo_freeglut\demo_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\resource\tex\bg\bg_clouds.png">
+      <Filter>Resource Files\tex\bg</Filter>
+    </Image>
+    <Image Include="..\..\..\resource\tex\bg\sky_clouds.png">
+      <Filter>Resource Files\tex\bg</Filter>
+    </Image>
+    <Image Include="..\..\..\resource\tex\bg\sky_water.png">
+      <Filter>Resource Files\tex\bg</Filter>
+    </Image>
+    <Image Include="..\..\..\resource\tex\box\box_dm.png">
+      <Filter>Resource Files\tex\box</Filter>
+    </Image>
+    <Image Include="..\..\..\resource\tex\box\box_nm.png">
+      <Filter>Resource Files\tex\box</Filter>
+    </Image>
+    <Image Include="..\..\..\resource\tex\box\box_sm.png">
+      <Filter>Resource Files\tex\box</Filter>
+    </Image>
+    <Image Include="..\..\..\resource\tex\earth\2k\earth_cm_2k.png">
+      <Filter>Resource Files\tex\earth\2k</Filter>
+    </Image>
+    <Image Include="..\..\..\resource\tex\earth\2k\earth_dm_2k.png">
+      <Filter>Resource Files\tex\earth\2k</Filter>
+    </Image>
+    <Image Include="..\..\..\resource\tex\earth\2k\earth_hm_2k.png">
+      <Filter>Resource Files\tex\earth\2k</Filter>
+    </Image>
+    <Image Include="..\..\..\resource\tex\earth\2k\earth_lm_2k.png">
+      <Filter>Resource Files\tex\earth\2k</Filter>
+    </Image>
+    <Image Include="..\..\..\resource\tex\earth\2k\earth_nm_2k.png">
+      <Filter>Resource Files\tex\earth\2k</Filter>
+    </Image>
+    <Image Include="..\..\..\resource\tex\earth\2k\earth_sm_2k.png">
+      <Filter>Resource Files\tex\earth\2k</Filter>
+    </Image>
+    <Image Include="..\..\..\resource\tex\stone\stone_dm.png">
+      <Filter>Resource Files\tex\stone</Filter>
+    </Image>
+    <Image Include="..\..\..\resource\tex\stone\stone_hm.png">
+      <Filter>Resource Files\tex\stone</Filter>
+    </Image>
+    <Image Include="..\..\..\resource\tex\stone\stone_nm.png">
+      <Filter>Resource Files\tex\stone</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\egpDemo_freeglut\demo_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
